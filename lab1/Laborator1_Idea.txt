@@ -6,5 +6,7 @@ Functionalitati:
 	3. Notificari la schimbarea conditiilor de vreme
 	4. Vizualizare pe harta  
 	5. Recomandari in functie de conditii meteo de pe baza de GPS
+	6. Planificare evenimente pe o anumita data, eventuale recomandari
 Nonfunctionale:
 	1. Folosire de API-uri
+	2. Web, Desktop, posibil mobile
