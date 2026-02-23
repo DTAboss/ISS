@@ -1,0 +1,10 @@
+Aplicatie de meteo.
+
+Functionalitati:
+	1. Alerte pentru conditii meteo extreme
+	2. Preview pentru zilele urmatoare
+	3. Notificari la schimbarea conditiilor de vreme
+	4. Vizualizare pe harta  
+	5. Recomandari in functie de conditii meteo de pe baza de GPS
+Nonfunctionale:
+	1. Folosire de API-uri
