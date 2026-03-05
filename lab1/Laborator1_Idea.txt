@@ -1,12 +1,17 @@
-Aplicatie de meteo.
-
-Functionalitati:
-	1. Alerte pentru conditii meteo extreme
-	2. Preview pentru zilele urmatoare
-	3. Notificari la schimbarea conditiilor de vreme
-	4. Vizualizare pe harta  
-	5. Recomandari in functie de conditii meteo de pe baza de GPS
-	6. Planificare evenimente pe o anumita data, eventuale recomandari
-Nonfunctionale:
-	1. Folosire de API-uri
-	2. Web, Desktop, posibil mobile
+Aplicatie pentru planificarea calatoriilor
+	Cerinte functionale:
+		1. Log-in & Sign-in
+		2. Creare/Stergere/Updatare/Vizualizare a unei calatorii
+		3. Schimbarea statusului unei calatorii (planning phase/ on-going / cancelled / finished )
+		3. Upload fotografii pentru calatorie
+		4. Gestionarea bugetului (aproximarea unui buget minim==> cost bilet avion + cazare + mancare, etc...)
+		5. Sugestii pentru vizatarea unor atractii din zona (AI)
+		6. Istoricul calatoriilor
+		7. Statistici despre numar de destinatii vizitate, bani cheltuiti
+		8. Cereri de pritenie/ follow, cu notificari despre locatii vizitate de prieteni
+	Cerinte non-functionale:
+		1. Persistenta in baze de date + criptarea parolelor si informatiilor cu caracter 		sensibil
+		2. Jurnalizare
+		3. Responsiveness
+		4. Multithreading
+		5. Folosire API-uri pentru preturi bilet avion/cazari
