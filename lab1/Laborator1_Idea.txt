@@ -1,4 +1,4 @@
-Aplicatie pentru planificarea calatoriilor
+Jurnal de calatorii
 	Cerinte functionale:
 		1. Log-in & Sign-in
 		2. Creare/Stergere/Updatare/Vizualizare a unei calatorii
