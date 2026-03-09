@@ -10,7 +10,7 @@ Jurnal de calatorii
 		7. Statistici despre numar de destinatii vizitate, bani cheltuiti
 		8. Cereri de pritenie/ follow, cu notificari despre locatii vizitate de prieteni
 	Cerinte non-functionale:
-		1. Persistenta in baze de date + criptarea parolelor si informatiilor cu caracter 		sensibil
+		1. Persistenta in baze de date + criptarea parolelor si informatiilor cu caracter sensibil
 		2. Jurnalizare
 		3. Responsiveness
 		4. Multithreading
