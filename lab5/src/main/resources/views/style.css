@@ -1,0 +1,54 @@
+.root {
+    -fx-font-family: "Georgia";
+}
+
+.overlay {
+    -fx-background-color: rgba(255,255,255,0.15);
+    -fx-padding: 20;
+    -fx-background-radius: 20;
+}
+
+.title {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 2, 0.5, 1, 1);
+}
+
+.input {
+    -fx-pref-width: 200px;
+    -fx-background-color: #ffe600;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+}
+
+.btn {
+    -fx-background-color: #ffe600;
+    -fx-border-color: black;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-padding: 8 20;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.btn:hover {
+    -fx-background-color: #ffd000;
+}
+
+.mosaic {
+    -fx-background-color: black;
+}
+
+.img {
+    -fx-preserve-ratio: false;
+}
+
+.img:hover {
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}

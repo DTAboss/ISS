@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefWidth="900" prefHeight="500"
+            stylesheets="/views/style.css"
+            xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.controller.LoginWindow">
+
+    <HBox prefWidth="900" prefHeight="500">
+
+        <StackPane prefWidth="450" prefHeight="500">
+
+            <ImageView fitWidth="450" fitHeight="500">
+                <Image url="/views/images/login_page/img_1.png"/>
+            </ImageView>
+
+            <VBox alignment="CENTER" spacing="15" styleClass="overlay">
+                <padding>
+                    <Insets top="20"/>
+                </padding>
+
+                <Label text="Trip Journal" styleClass="title"/>
+
+                <TextField promptText="username" styleClass="input" fx:id="usernameField"/>
+                <PasswordField promptText="password" styleClass="input" fx:id="passwordField"/>
+
+                <HBox spacing="10" alignment="CENTER">
+                    <Button text="LogIn" styleClass="btn" onAction="#handleLogin"/>
+                    <Button text="SignIn" styleClass="btn" onAction="#handleSignIn"/>
+                </HBox>
+            </VBox>
+
+        </StackPane>
+
+        <Pane prefWidth="450" prefHeight="500" styleClass="mosaic">
+
+            <ImageView fitWidth="150" fitHeight="170" styleClass="img">
+                <Image url="/views/images/login_page/img_2.png"/>
+            </ImageView>
+
+            <ImageView layoutX="150" fitWidth="150" fitHeight="170" styleClass="img">
+                <Image url="/views/images/login_page/img_3.png"/>
+            </ImageView>
+
+            <ImageView layoutX="300" fitWidth="150" fitHeight="170" styleClass="img">
+                <Image url="/views/images/login_page/img_4.png"/>
+            </ImageView>
+
+            <ImageView layoutY="170" fitWidth="220" fitHeight="150" styleClass="img">
+                <image><Image url="/views/images/login_page/img_5.png"/></image>
+            </ImageView>
+
+            <ImageView layoutX="220" layoutY="170" fitWidth="230" fitHeight="150" styleClass="img">
+                <Image url="/views/images/login_page/img_6.png"/>
+            </ImageView>
+
+            <ImageView layoutY="320" fitWidth="150" fitHeight="180" styleClass="img">
+                <Image url="/views/images/login_page/img_7.png"/>
+            </ImageView>
+
+            <ImageView layoutX="150" layoutY="320" fitWidth="150" fitHeight="180" styleClass="img">
+                <Image url="/views/images/login_page/img_8.png"/>
+            </ImageView>
+
+            <ImageView layoutX="300" layoutY="320" fitWidth="150" fitHeight="180" styleClass="img">
+                <Image url="/views/images/login_page/img_9.png"/>
+            </ImageView>
+
+        </Pane>
+
+    </HBox>
+
+</AnchorPane>
